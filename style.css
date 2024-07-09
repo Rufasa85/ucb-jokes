@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #1493ff;
+  --secondary: #ff1493;
+  --accent: #93ff14;
+}
+
+body {
+  background: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background: var(--secondary);
+  transform: rotate(45deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  width: 85vh;
+}
+
+main * {
+  transform: rotate(-45deg);
+}
+
+h1 {
+  color: var(--accent);
+}
+
+button {
+  color: var(--primary);
+  background: var(--accent);
+  font-size: 36px;
+}
+
+#new-joke {
+  display: none;
+}

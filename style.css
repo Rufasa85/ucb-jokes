@@ -29,10 +29,6 @@ main {
   width: 70vh;
 }
 
-main * {
-  /* transform: rotate(-45deg); */
-}
-
 h1 {
   color: var(--accent);
   text-align: center;

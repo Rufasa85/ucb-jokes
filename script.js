@@ -1,6 +1,6 @@
-let jokeHeader = document.getElementById("joke-header");
-let punchlineBtn = document.getElementById("punchline-btn");
-let newJoke = document.getElementById("new-joke");
+const jokeHeader = document.getElementById("joke-header");
+const punchlineBtn = document.getElementById("punchline-btn");
+const newJoke = document.getElementById("new-joke");
 let punchline;
 
 function fetchJoke() {
